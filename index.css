@@ -1,0 +1,99 @@
+/* Estilo minimalista y divertido para Frases Motivacionales */
+body {
+  background: #f4f8fb;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #1565c0;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(21,101,192,0.08);
+  padding: 2rem 2.5rem;
+  text-align: center;
+  min-width: 320px;
+  border: 1px solid #e3eaf2;
+}
+
+#frase {
+  font-size: 1.2rem;
+  color: #1a237e;
+  margin-bottom: 1.2rem;
+  min-height: 2.5rem;
+}
+
+#frase.fade {
+  opacity: 0.3;
+}
+
+#btn-frase {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(21,101,192,0.10);
+  transition: background 0.2s, transform 0.2s;
+}
+
+#btn-frase:hover {
+  background: #1565c0;
+  transform: scale(1.04);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0 0.5rem 0;
+  color: #1565c0;
+  font-size: 1rem;
+  background: #e3eaf2;
+  margin-top: auto;
+}
+
+#contador {
+  font-size: 1.1rem;
+  color: #1976d2;
+  margin: 0.5rem 0;
+  font-weight: 500;
+}
+
+small {
+  display: block;
+  margin-top: 0.5rem;
+  color: #0d47a1;
+  font-weight: bold;
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  background: #bbdefb;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.7rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
