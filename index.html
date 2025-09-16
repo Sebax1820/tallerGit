@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Frases Motivacionales</title>
+</head>
+
+<body>
+    <header>
+        <h1>Frases Motivacionales</h1>
+    </header>
+
+    <main>
+        <!-- Contenedor principal de la app -->
+        <section aria-labelledby="seccion-frase">
+            <h2 id="titulo-seccion" hidden>Interfaz</h2>
+
+            <!-- Contenedor donde el JS insertará <p>...</p> -->
+            <div id="frase" role="status" aria-live="polite"></div>
+
+            <!-- Botón para disparar la acción (luego lo engancha el JS) -->
+            <button id="btn-frase" type="button">Mostrar frase</button>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p id="contador"></p>
+        </div>
+        <small>Grupo de Full Stack</small>
+    </footer>
+</body>
+
+</html>
